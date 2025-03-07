@@ -1,5 +1,6 @@
 package com.shubhans.gamehok.presentation.components
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -42,6 +43,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.shubhans.gamehok.R
+import com.shubhans.gamehok.domain.TournamentInfo
 import com.shubhans.gamehok.presentation.theme.BorderColor
 import com.shubhans.gamehok.presentation.theme.ButtonGreen
 import com.shubhans.gamehok.presentation.theme.ButtonSurface
@@ -119,6 +121,7 @@ fun TournamentSection(
     }
 }
 
+@SuppressLint("RememberReturnType")
 @Composable
 fun TournamentCard(
     tournamentInfo: TournamentInfo,

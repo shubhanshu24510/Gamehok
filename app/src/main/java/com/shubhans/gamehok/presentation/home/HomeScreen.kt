@@ -10,23 +10,17 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
-import com.shubhans.gamehok.presentation.components.CourseSection
+import com.shubhans.gamehok.domain.TournamentInfo
 import com.shubhans.gamehok.presentation.components.GameAppBar
 import com.shubhans.gamehok.presentation.components.GameNavBar
 import com.shubhans.gamehok.presentation.components.GameSection
 import com.shubhans.gamehok.presentation.components.PeopleToFollowSection
 import com.shubhans.gamehok.presentation.components.PremiumCardList
-import com.shubhans.gamehok.presentation.components.TournamentInfo
 import com.shubhans.gamehok.presentation.components.TournamentSection
-import com.shubhans.gamehok.presentation.theme.GamehokTheme
-import com.shubhans.gamehok.presentation.theme.TextWhite
 
 @Composable
 fun HomeScreen(

@@ -2,7 +2,6 @@ package com.shubhans.gamehok.presentation.tounamentDetails
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -19,10 +18,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.shubhans.gamehok.presentation.components.TournamentInfo
+import com.shubhans.gamehok.domain.TournamentInfo
 import com.shubhans.gamehok.presentation.components.TournamentSection
 import com.shubhans.gamehok.presentation.theme.DarkBackground
-import com.shubhans.gamehok.presentation.theme.GamehokTheme
 import com.shubhans.gamehok.presentation.theme.GamehokTheme.bottomBarGradient
 import com.shubhans.gamehok.presentation.theme.TextWhite
 

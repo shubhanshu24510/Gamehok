@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.shubhans.gamehok.presentation.components.TournamentInfo
+import com.shubhans.gamehok.domain.TournamentInfo
 import com.shubhans.gamehok.presentation.theme.DarkBackground
 
 data class RoundInfo(

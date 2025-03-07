@@ -35,9 +35,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.shubhans.gamehok.R
+import com.shubhans.gamehok.domain.TournamentInfo
 import com.shubhans.gamehok.presentation.components.GameHokImage
 import com.shubhans.gamehok.presentation.components.RegistrationStatus
-import com.shubhans.gamehok.presentation.components.TournamentInfo
 import com.shubhans.gamehok.presentation.theme.ButtonSurface
 import com.shubhans.gamehok.presentation.theme.DarkBackground
 import com.shubhans.gamehok.presentation.theme.TextGrey
