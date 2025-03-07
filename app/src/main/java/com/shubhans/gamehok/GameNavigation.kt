@@ -7,8 +7,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.shubhans.gamehok.domain.TournamentInfo
 import com.shubhans.gamehok.presentation.components.RegistrationStatus
-import com.shubhans.gamehok.presentation.components.TournamentInfo
 import com.shubhans.gamehok.presentation.home.HomeScreen
 import com.shubhans.gamehok.presentation.tounamentDetails.TournamentDetailScreen
 
