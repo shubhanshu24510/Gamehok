@@ -9,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.shubhans.gamehok.domain.TournamentInfo
 import com.shubhans.gamehok.presentation.components.RegistrationStatus
+import com.shubhans.gamehok.presentation.gameDetails.GameDetailsScreen
 import com.shubhans.gamehok.presentation.home.HomeScreen
 import com.shubhans.gamehok.presentation.tounamentDetails.TournamentDetailScreen
 
@@ -22,7 +23,7 @@ enum class Screens(val route: String) {
 fun GameHokNavigation() {
     val navController = rememberNavController()
 
-//Sample API call to get the list of tournaments
+    //Sample API call to get the list of tournaments
     val tournaments = remember {
         listOf(
             TournamentInfo(
@@ -90,6 +91,7 @@ fun GameHokNavigation() {
                 }
             )
         }
+
         composable(
             route = Screens.TournamentDetail.route,
             arguments = listOf(
@@ -110,6 +112,29 @@ fun GameHokNavigation() {
                 onJoinClick = {},
                 onTournamentClick = {},
                 tournaments = tournaments
+            )
+        }
+
+        composable(
+            route = Screens.GameDetail.route,
+            arguments = listOf(
+                navArgument("gameId") {
+                    type = NavType.IntType
+                }
+            )
+        ) { backStackEntry ->
+            val gameId = backStackEntry.arguments?.getInt("gameId") ?: 1
+            GameDetailsScreen(
+                gameId = gameId,
+                onBackClick = { navController.popBackStack() },
+                onTournamentClick = { tournamentId ->
+                    navController.navigate(
+                        Screens.TournamentDetail.route.replace(
+                            "{tournamentId}",
+                            tournamentId
+                        )
+                    )
+                }
             )
         }
     }

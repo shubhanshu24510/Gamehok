@@ -29,6 +29,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.shubhans.gamehok.R
+import com.shubhans.gamehok.Screens
 import com.shubhans.gamehok.presentation.theme.LineGrey
 import com.shubhans.gamehok.presentation.theme.LinearGreen
 import com.shubhans.gamehok.presentation.theme.TextWhite
@@ -75,36 +76,36 @@ fun GameSection(
                 gameImage = R.drawable.ic_bgmi_player,
                 gameName = "PUBG",
                 onClick = {
-//                    navController.navigate(
-//                        Screens.GameDetail.route.replace(
-//                            "{gameId}",
-//                            "1"
-//                        )
-//                    )
+                    navController.navigate(
+                        Screens.GameDetail.route.replace(
+                            "{gameId}",
+                            "1"
+                        )
+                    )
                 }
             )
             GameCard(
                 gameImage = R.drawable.ic_call_duty,
                 gameName = "Call of Duty",
                 onClick = {
-//                    navController.navigate(
-//                        Screens.GameDetail.route.replace(
-//                            "{gameId}",
-//                            "2"
-//                        )
-//                    )
+                    navController.navigate(
+                        Screens.GameDetail.route.replace(
+                            "{gameId}",
+                            "2"
+                        )
+                    )
                 }
             )
             GameCard(
                 gameImage = R.drawable.ic_counter_strike,
                 gameName = "Counter Strike",
                 onClick = {
-//                    navController.navigate(
-//                        Screens.GameDetail.route.replace(
-//                            "{gameId}",
-//                            "3"
-//                        )
-//                    )
+                    navController.navigate(
+                        Screens.GameDetail.route.replace(
+                            "{gameId}",
+                            "3"
+                        )
+                    )
                 }
             )
         }
