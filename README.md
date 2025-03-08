@@ -38,6 +38,7 @@ https://drive.google.com/file/d/15sj_s1Q0cxK9b-rD6AYHLifP7EFi8qlP/view?usp=shari
 - Tournament schedule and rounds
 - Joining instructions
 - Active tournaments list
+- Support and Contact
 - Player management
 
 ### Game Details
