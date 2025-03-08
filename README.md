@@ -2,15 +2,16 @@
 
 GameHok is an Android application built with Jetpack Compose that allows users to participate in Gaming tournaments, follow gamers, and learn from gaming experts.
 
+## Project Demo
+
+https://github.com/user-attachments/assets/4ea47f4c-e289-4866-89f4-9886559de9a6
+
 ## Features
 
 - **Tournament System**: Browse and join various gaming tournaments with real-time registration status
 - **Premium Features**: Access exclusive content and features with premium membership
 - **Game Selection**: Multiple popular games including PUBG, Call of Duty, and Counter Strike
 - **Social Features**: Follow and connect with other gamers
-
-## Project Demo
-
 
 ## Tech Stack
 
